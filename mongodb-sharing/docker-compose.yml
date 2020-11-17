@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  mongo:
+    image: mongo:4.2-bionic
+
+  service1:
+    build: ./img1
+  service2:
+    build: ./img2
+
+volumes:
+  mongo-db:
+
