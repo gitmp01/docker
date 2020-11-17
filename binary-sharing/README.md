@@ -1,7 +1,7 @@
 ### What is this?
 
 This is a simple example showing how to share a binary
-between container using docker volumes.
+between containers using docker volumes.
 
 
 ### Build
